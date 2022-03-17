@@ -1,3 +1,15 @@
+// Hello professor! I hope you like our game based on duck hunt. Here's a quick guide:
+// Target over a duck and press 'Z' to shoot and kill a duck
+// The goal of the game is to kill ten ducks within 30 seconds
+// Pressing any key at the end of the game will reset the game
+
+// Here is what we chose to add as our features:
+// 1. Add sound effects to the game (not just a background theme, but noises that happen with events).
+// 2. Add more random targets to score points (add more sprite images, there are lots of sprites on 
+// the web, search, then photo edit the sprite sheet to pick out the images you want to use.)
+// 5. Animate the sprite(s) we created the ducks ourselves using a program called Piskel
+// 7. Add a time limit where the player loses if they don’t complete something in the time limit.
+
 window.onload = function(){
     const TIMELIMIT = 30 * 1000;
     const MONSTERLIMIT = 10;
